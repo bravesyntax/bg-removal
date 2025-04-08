@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import { Feather, HomeIcon, ShoppingBag } from "lucide-react";
 import { useState, useEffect } from "react";
-import { SignInButton } from "@clerk/clerk-react";
 
 function App() {
   const location = useLocation();
